@@ -1,0 +1,166 @@
+@import url(https://design-system.cdn.yle.fi/fonts/fonts.css);
+
+#app-root-2026-04-gaza2 .app {
+  font-family: Yle Next, Arial, sans-serif;
+  .text_dark {
+    color: #222;
+  }
+  .text_light {
+    color: #ddd;
+  }
+  .text_grey {
+    color: #bbb;
+  }
+  .container_text_content {
+    font-size: 0;
+    padding: 20px 0;
+    .text_content {
+      margin: auto auto;
+      max-width: 700px;
+      h1 {
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin: 0 0 40px 0;
+        text-align: center;
+      }
+      h3 {
+        font-size: 38px;
+        font-weight: 900;
+        line-height: 1.4;
+        margin: 0 0 20px 0;
+      }
+      p {
+        font-size: 22px;
+        margin: 0 0 20px 0;
+        line-height: 1.4;
+        &:last-child {
+          margin: 0 0 0 0;
+        }
+        .label {
+        }
+        .value {
+          font-weight: 600;
+        }
+      } 
+    }
+  }
+  .container_image_content {
+    padding: 50px 0;
+    .image_content {
+      font-size: 0;
+      margin: auto auto;
+      max-width: 1400px;
+      .image {
+        margin: 0;
+        max-width: 100%;
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+  .container_visualisation_content {
+    height: 450vh;
+    background: #000;
+    .visualisation_content {
+      height: 100vh;
+      overflow: 'hidden';
+      position: sticky;
+      top: 0;
+      canvas {
+        display: block;
+
+      }
+      .container_scrolling_text {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        p {
+          color: #fff;
+          font-size: 50px;
+          font-weight: 500;
+          line-height: 1.4;
+          max-width: 600px;
+          text-align: center;
+        }
+      }
+      .container_infocard_wrapper {
+        box-sizing: border-box;
+        height: 100%;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        transition: opacity 0.3s;
+        width: 100%;
+        svg {
+          height: 100%;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 100%;
+        }
+        .container_infocard_content {
+          background: #111;
+          border-bottom: 3px solid rgba(249, 115, 22, 0.8);
+          border-left: 3px solid rgba(249, 115, 22, 0.8);
+          border-radius: 2px;
+          box-sizing: border-box;
+          height: 342px;
+          position: absolute;
+          width: 250px;
+          .infocard_image {
+            margin-bottom: 10px;
+            padding: 0;
+            .container_image_content {
+              padding: 0;
+              .image {
+                height: (133 * 9 / 16)px;
+                width: 250px;
+              }
+            }
+          }
+          .infocard_content {
+            padding: 20px;
+            h3 {
+              font-size: 22px;
+              font-weight: 600;
+              margin: 0 0 10px 0;
+            }
+            p {
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 1.5;
+              margin: 0 0 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .container_video_content {
+    height: 190vh;
+    .video_content {
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      position: sticky;
+      top: 0;
+      video {
+        height: 50vw;
+        max-height: 800px;
+        max-width: 800px;
+        object-fit: cover;
+        transition: opacity 0.1s ease;
+        width: 50vw;
+      }
+    }
+  }
+}
