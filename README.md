@@ -1,6 +1,6 @@
 # 2026-04-gaza_webpack
 
-**Live demo** https://unctad-infovis.github.io/2026-04-gaza_webpack/
+**Live demo** https://teelmo.github.io/2026-04-gaza_webpack/
 
 ## Rights of usage
 
