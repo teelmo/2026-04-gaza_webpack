@@ -35,7 +35,7 @@ function InfoCard({ opacity, cx, cy }) {
         style={{ top: cardY, left: cardX }}
       >
         <div className="infocard_image">
-          <Image path="/assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="" />
+          <Image path="assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="" />
         </div>
         <div className="infocard_content">
           <h3 className="text_light">Rital Abu Asi</h3>
