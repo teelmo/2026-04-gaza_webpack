@@ -30,7 +30,7 @@ function App() {
           <p>– En raapinut itseäni aamulla, Rital vakuuttaa hänelle.</p>
         </div>
       </div>
-      <Image path="/assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="linear-gradient(to bottom, #eee, #333)" />
+      <Image path="assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="linear-gradient(to bottom, #eee, #333)" />
       <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #333, #000)' }}>
         <div className="text_content text_light">
           <p>Palestilainen Riham Abu Asi asuu väliaikaisesti Jordanian pääkaupungissa Ammanissa viiden lapsensa kanssa, joista kahdelle hän on tullut hakemaan hoitoa. Heidät on majoitettu hotelliin.</p>
@@ -63,7 +63,7 @@ function App() {
           <p>Kuningas ilmoitti tästä puheessaan Washingtonin-vierailunsa yhteydessä helmikuussa 2025. Toiminta käynnistyi nopeasti: ensimmäiset pienet potilaat saapuivat Jordaniaan jo maaliskuun alussa.</p>
         </div>
       </div>
-      <Image path="/assets/img/map.png" alt="Kuvateksti" background="#eee" />
+      <Image path="assets/img/map.png" alt="Kuvateksti" background="#eee" />
       <div className="container_text_content" style={{ background: '#eee' }}>
         <div className="text_content text_dark">
           <p>Hyvin pieni osa apua tarvitsevista lapsista pääsee hoitoon ulkomaille. </p>
@@ -78,7 +78,7 @@ function App() {
             height: 267,
             initialOffset: { x: 20, y: 0 },
             left: -25, // relative to center
-            path: '/assets/img/mosaic1/Rital_1.jpg',
+            path: 'assets/img/mosaic1/Rital_1.jpg',
             top: -150, // relative to center
             type: 'image',
             width: 400,
@@ -87,7 +87,7 @@ function App() {
             height: 267,
             initialOffset: { x: -20, y: -20 },
             left: -375, // relative to center
-            path: '/assets/img/mosaic1/Riham_ja_Rital.jpg',
+            path: 'assets/img/mosaic1/Riham_ja_Rital.jpg',
             top: -375, // relative to center
             type: 'image',
             width: 400
@@ -96,7 +96,7 @@ function App() {
             height: 267,
             initialOffset: { x: 0, y: -20 },
             left: -200, // relative to center
-            path: '/assets/img/mosaic1/Rital_2.jpg',
+            path: 'assets/img/mosaic1/Rital_2.jpg',
             top: 140, // relative to center
             type: 'image',
             width: 400,
@@ -121,7 +121,7 @@ function App() {
           }
         ]}
       />
-      <Image path="/assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="#eee" />
+      <Image path="assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="#eee" />
       <div className="container_text_content" style={{ background: '#eee' }}>
         <div className="text_content text_dark">
           <h3>Kilpajuoksu byrokratiaa vastaan</h3>
@@ -154,7 +154,7 @@ function App() {
             height: 267,
             initialOffset: { x: -20, y: 0 },
             left: -400, // relative to center
-            path: '/assets/img/mosaic2/20251216_BS_YLE_Q1020232_0015.jpg',
+            path: 'assets/img/mosaic2/20251216_BS_YLE_Q1020232_0015.jpg',
             top: -130, // relative to center
             type: 'image',
             width: 400,
@@ -163,7 +163,7 @@ function App() {
             height: 267,
             initialOffset: { x: 20, y: 0 },
             left: 25, // relative to center
-            path: '/assets/img/mosaic2/20251212_BS_YLE_Q1010404_0004.jpg',
+            path: 'assets/img/mosaic2/20251212_BS_YLE_Q1010404_0004.jpg',
             top: -130, // relative to center
             type: 'image',
             width: 400
@@ -172,7 +172,7 @@ function App() {
             height: 267,
             initialOffset: { x: 0, y: -20 },
             left: -200, // relative to center
-            path: '/assets/img/mosaic2/20251211_BS_YLE_Q1010295_0001.jpg',
+            path: 'assets/img/mosaic2/20251211_BS_YLE_Q1010295_0001.jpg',
             top: -425, // relative to center
             type: 'image',
             width: 400,
@@ -196,7 +196,7 @@ function App() {
           <p>Jordaniassa potilaat pääsevät maan parhaisiin sairaaloihin. Toistaiseksi maahan on päässyt hoitoon runsaat 600 palestiinalaislasta. Jordania ei voi vaikuttaa evakuoitavien lasten määrään, sillä Israelin viranomaiset myöntävät poistumisluvat.</p>
         </div>
       </div>
-      <Image path="/assets/img/Riham_Abu_Asi.jpg" alt="Kuvateksti" background="#eee" />
+      <Image path="assets/img/Riham_Abu_Asi.jpg" alt="Kuvateksti" background="#eee" />
       <div className="container_text_content" style={{ background: '#eee' }}>
         <div className="text_content text_dark">
           <h3>Saapuminen Ammaniin</h3>
