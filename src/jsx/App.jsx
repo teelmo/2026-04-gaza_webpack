@@ -121,7 +121,6 @@ function App() {
           }
         ]}
       />
-      <Image path="assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="#eee" />
       <div className="container_text_content" style={{ background: '#eee' }}>
         <div className="text_content text_dark">
           <h3>Kilpajuoksu byrokratiaa vastaan</h3>
