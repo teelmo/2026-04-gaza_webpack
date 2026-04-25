@@ -1,6 +1,6 @@
-# 2026-04-gaza2
+# 2026-04-gaza_webpack
 
-**Live demo** https://unctad-infovis.github.io/2026-04-gaza2/
+**Live demo** https://unctad-infovis.github.io/2026-04-gaza_webpack/
 
 ## Rights of usage
 
