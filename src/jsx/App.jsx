@@ -6,6 +6,7 @@ import '../styles/styles.less';
 // import roundNr from './helpers/RoundNr.js';
 import Image from './components/Image.jsx';
 import Visualisation from './components/Visualisation.jsx';
+import Visualisation2 from './components/Visualisation2.jsx';
 import Video from './components/Video.jsx';
 import Mosaic from './components/Mosaic.jsx';
 
@@ -130,7 +131,6 @@ function App() {
           <p>Evakuointiprosessi voi kestää viikkoja tai kuukausia, ja joissakin tapauksissa lupia ei myönnetä.</p>
           <p>Näin kävi myös 4-vuotiaalle Ritalille. Israel katsoi, että hänen palovammansa eivät olleet riittävän vakavia, jotta ne olisivat oikeuttaneet lääketieteelliseen evakuointiin. </p>
           <p>Vasta nuoremman sisaruksen syöpädiagnoosi avasi tien Jordaniaan. Äiti ja lapset pääsivät lopulta Ammaniin, ja Ritalille tehtiin hyvin nopeasti Jordaniaan saavuttua vaativa ihonsiirtoleikkaus.</p>
-
         </div>
       </div>
       <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #eee, #111)', height: '500px' }} />
@@ -218,7 +218,7 @@ function App() {
           <p>Ennen Jordaniaan tuloa he asuivat lähes kaksi vuotta teltoissa.</p>
         </div>
       </div>
-      <Image path="https://placehold.co/800" alt="Kuvateksti" background="#eee" />
+      <Visualisation2 />
       <div className="container_text_content" style={{ background: '#eee' }}>
         <div className="text_content text_dark">
           <h3>Jordania pelkää uutta pakolaisaaltoa</h3>
