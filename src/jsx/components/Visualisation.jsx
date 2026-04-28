@@ -147,7 +147,7 @@ function Visualisation() {
 
         // Dots fade to background during screen 3 (0.66–0.75) quickly
         const fadeProgress = Math.min(Math.max((scrollProgress - 0.66) / 0.09, 0), 1);
-        const injuredOpacityMultiplier = 1 - fadeProgress * 0.6; // fade to 40% opacity
+        const injuredOpacityMultiplier = 1 - fadeProgress * 0.90; // fade to 90% opacity
         for (let i = 0; i < dotCount; i++) {
           const dot = injuredDotsRef.current[i];
           ctx.beginPath();

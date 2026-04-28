@@ -31,7 +31,7 @@ function App() {
         </div>
       </div>
       <Image path="assets/img/Rital_Abu_Asi.jpg" alt="Kuvateksti" background="linear-gradient(to bottom, #eee, #333)" />
-      <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #333, #000)' }}>
+      <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #333, #111)' }}>
         <div className="text_content text_light">
           <p>Palestilainen Riham Abu Asi asuu väliaikaisesti Jordanian pääkaupungissa Ammanissa viiden lapsensa kanssa, joista kahdelle hän on tullut hakemaan hoitoa. Heidät on majoitettu hotelliin.</p>
           <p>Rital haavoittui Israelin ilmaiskussa, joita tehtiin Gazan kaistalle sodan tuossa vaiheessa lähes taukoamatta. Kaksivuotias Lolla puolestaan sairastaa silmäsyöpää.</p>
@@ -41,9 +41,9 @@ function App() {
         </div>
       </div>
       <Visualisation />
-      <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #000, #111)', height: '300px' }} />
-      <div className="container_text_content" style={{ background: '#111' }}>
-        <div className="text_content text_light">
+      <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #111, #eee)', height: '500px' }} />
+      <div className="container_text_content" style={{ background: '#eee' }}>
+        <div className="text_content text_dark">
           <h3>Iho suli kiinni vaatteisiin</h3>
           <p>– Iskun voimasta päällemme lensi kauheasti romua, palestiinalaisäiti Riham Abu Asi muistelee hetkeä, jolloin hänen tyttärensä haavoittui. Hän kertoo tyttären huutaneen, että jalkaan tuli ”iso pipi”.</p>
           <p>Lapsen jalkojen iho irtosi, kun Riham Abu Asi riisui tyttäreltään housut nähdäkseen, mitä oli tapahtunut. </p>
@@ -53,8 +53,8 @@ function App() {
           <p>Riham Abu Asin mukaan iskussa kuoli 14 ihmistä, jotka makaavat yhä betonimurskan alla. Rital itse ei muista tapahtuneesta mitään; kysyttäessä hän hokee vain hämmentyneenä unohtaneensa kaiken.</p>
         </div>
       </div>
-      <Video background="#111" path="https://placeholdervideo.dev/1080x1080" />
-      <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #111, #ccc)', height: '500px' }} />
+      <Video background="#eee" path="https://placeholdervideo.dev/1600x900" />
+      <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #eee, #ccc)', height: '500px' }} />
       <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #ccc, #eee)' }}>
         <div className="text_content text_dark">
           <h3>Kuningas Abdullahin lääketieteellinen käytävä</h3>
@@ -134,7 +134,7 @@ function App() {
         </div>
       </div>
       <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #eee, #111)', height: '500px' }} />
-      <Video background="#111" path="https://placeholdervideo.dev/1080x1080" />
+      <Video background="#eee" path="https://placeholdervideo.dev/1080x1080" />
       <div className="container_text_content" style={{ background: 'linear-gradient(to bottom, #111, #eee)', height: '500px' }} />
       <div className="container_text_content" style={{ background: '#eee' }}>
         <div className="text_content text_dark">
